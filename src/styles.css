@@ -5,3 +5,7 @@ table, th, td {
 body {
   background-color: coral;
 }
+
+header {
+  font-size: 30;
+}
