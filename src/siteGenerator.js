@@ -3,6 +3,8 @@ const ejs = require('ejs');
 const plotly = require('plotly');
 
 
+let index_template = fs.readFileSync('views/index.ejs', 'utf8');
+
 /*
   1) Generate an index page of all characters
 */
