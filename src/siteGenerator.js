@@ -13,8 +13,4 @@ let index_html = ejs.render(index_template, {
 
 fs.writeFileSync('../public/index.html', index_html, 'utf8');
 
-let about_html = ejs.render(about_template, {
-  filename: __dirname + '/views/about.ejs'
-});
 
-fs.writeFileSync('../public/about.html', about_html, 'utf8');
